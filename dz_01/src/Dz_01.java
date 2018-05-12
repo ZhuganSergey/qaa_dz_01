@@ -5,10 +5,11 @@ public class Dz_01 {
     String result = "";
 
     for (int i = str.length()-1; i >= 0; i--){
-      result += str.charAt(i);
+      result = result + str.charAt(i) + " ";
     }
 
-    // System.out.println(str);
+    result = result.trim();
+
     System.out.println(result);
   }
 }
